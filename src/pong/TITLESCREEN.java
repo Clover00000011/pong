@@ -17,14 +17,15 @@ import java.io.File;
 import java.awt.event.ActionEvent;
 import java.awt.Component;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 
 @SuppressWarnings("serial")
 public class TITLESCREEN extends JFrame {
 
 	public class TSMusic {
 
-		//Music
+		/**
+		* Adding music
+		*/
 		void playMusic(String musicLocation) {
 			try {
 				File musicPath = new File(musicLocation);
@@ -35,13 +36,11 @@ public class TITLESCREEN extends JFrame {
 					clip.open(audioInput);
 					clip.start();
 					clip.loop(clip.LOOP_CONTINUOUSLY);
-					//JOptionPane.showMessageDialog(null, "Press OK To Stop Music");
 				} else {
 					System.out.println("Can't find File");
 				}
 				
 			} catch (Exception e) {
-				//Remember
 				e.printStackTrace();
 			}
 		}
