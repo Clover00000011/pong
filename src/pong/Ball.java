@@ -42,7 +42,6 @@ public class Ball extends Rectangle{
 		g.setColor(Color.white);
 		g.fillOval(x, y, height, width);
 	}
-//OWN CODE
 	public void keyPressed(KeyEvent e) {
 		if(e.getKeyCode()== KeyEvent.VK_ENTER) {
 			random = new Random();
