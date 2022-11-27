@@ -20,15 +20,3 @@ public class GameFrame extends JFrame{
 		this.setLocationRelativeTo(null);
 	}
 }
-/*
-* Hello
-*
-*
-*/
-
-/**
-* Nice
-*
-*
-*Day
-*/
