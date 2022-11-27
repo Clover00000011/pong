@@ -110,7 +110,6 @@ public class GamePanel extends JPanel implements Runnable{
 		}
 	}
 	private int signum(int yVelocity) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
